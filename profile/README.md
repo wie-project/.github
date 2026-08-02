@@ -17,7 +17,7 @@ An open-source research and engineering organisation focused on low-level emulat
 ---
 
 ## The Team
-* **@Vladislav-Kalinkin** — Founder & Lead Systems Engineer
+* **@Vladislav-Kalinkin** — Founder
 * **@DevYatsu** — Co-developer (WIE)
 
 ## License
