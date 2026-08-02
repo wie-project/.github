@@ -5,7 +5,7 @@ An open-source research and engineering organisation focused on low-level emulat
 ## Our Projects
 
 ### 1. Kakehashi
-**A lightweight, blazing fast userspace translator to run macOS ARM64 binaries on Linux ARM.**
+**An experimental lightweight userspace translator to run macOS ARM64 binaries on Linux ARM.**
 * **The Core Idea:** Complete rejection of kernel modules (LKM) in favour of a pure userspace runtime. It uses a fast assembly hypercall bridge to route Mach-O system calls directly into a host Rust environment with identity-mapped memory.
 * **Tech Stack:** Rust, Assembly (ARM64).
 
