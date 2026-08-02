@@ -18,7 +18,7 @@ An open-source research and engineering organisation focused on low-level emulat
 
 ## The Team
 * **@Vladislav-Kalinkin** — Founder & Lead Systems Engineer
-* **@DevYatsu** — Co-developer (WIE CPU)
+* **@DevYatsu** — Co-developer (WIE)
 
 ## License
 Our projects are distributed under open-source licenses (**Apache-2.0** for Kakehashi, **LGPL-3.0** for WIE).
