@@ -1,32 +1,24 @@
-<div align="center">
+# WIE Project (Wie Is Emulator)
 
-# 🚀 WIE (Wie Is Emulator)
+An open-source research and engineering organisation focused on low-level emulation, systems programming, and high-performance cross-OS runtime environments.
 
-**An experimental PE64 userspace emulator written in Rust.**  
-*Specifically tailored for running Windows binaries seamlessly on Apple Silicon macOS.*
+## Our Projects
 
-[![Rust CI](https://img.shields.io/github/actions/workflow/status/wie-project/wie/ci.yml?branch=main)](https://github.com/wie-project/wie/actions)
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
-[![Rust](https://img.shields.io/badge/rust-1.97%2B-orange.svg)](https://www.rust-lang.org)
+### 1. Kakehashi
+**A lightweight, blazing fast userspace translator to run macOS ARM64 binaries on Linux ARM.**
+* **The Core Idea:** Complete rejection of kernel modules (LKM) in favour of a pure userspace runtime. It uses a fast assembly hypercall bridge to route Mach-O system calls directly into a host Rust environment with identity-mapped memory.
+* **Tech Stack:** Rust, Assembly (ARM64).
 
-</div>
+### 2. WIE — Wie Is Emulator
+**An experimental PE64 userspace emulator written in Rust.**
+* **The Core Idea:** Designed to run Windows x64 binaries seamlessly on Apple Silicon macOS via JIT emulation. 
+* **Tech Stack:** Rust, JIT.
 
 ---
 
-### 🛠️ Architecture & Components
-The codebase is modularized into independent crates to ensure clean architecture and fast build times:
-* **`wie-cpu`** — The core CPU emulation engine.
-* **`wie-winapi`** — Windows API emulation layer interfaces.
-* **`wie-pe`** — Portable Executable format parser for PE64 files.
-* **`wie-cli`** — Command-line interface to control and run the binaries.
+## The Team
+* **@Vladislav-Kalinkin** — Founder & Lead Systems Engineer
+* **@DevYatsu** — Co-developer (WIE CPU)
 
-### 👥 The Team
-* **[@Vladislav-Kalinkin](https://github.com)** — Lead Developer & Founder
-* **[@DevYatsu](https://github.com)** — Co-developer
-
-### 💬 Community & Support
-* Found a crash or an unhandled Windows API? Open a **[Bug Issue](https://github.com)**.
-* Want to discuss emulation ideas or ask questions? Join our **[Discussions](https://github.com)**!
-
-### 📜 License
-This project is open-source and distributed under the **LGPL-3.0 License**.
+## License
+Our projects are distributed under open-source licenses (**Apache-2.0** for Kakehashi, **LGPL-3.0** for WIE).
