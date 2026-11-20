@@ -23,6 +23,7 @@ An open-source research and engineering organisation focused on low-level emulat
 
 ## The Team
 * **@Vladislav-Kalinkin** — Founder
+* **@osxdoc** — Co-developer (PS4Recomp)
 * **@DevYatsu** — Co-developer (WIE)
 
 ## License
